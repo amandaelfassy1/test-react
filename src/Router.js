@@ -1,4 +1,4 @@
-import Home from "./pages/Home";
+import { Articles } from "./pages/Articles";
 import {
   Route,
   BrowserRouter as Router,
@@ -11,7 +11,7 @@ export default function DefaultRouter() {
     <BrowserRouter>
       <Router>
         <Switch>
-          <Route exact path="/articles" component={Home} />
+          <Route exact path="/articles" component={Articles} />
         </Switch>
       </Router>
     </BrowserRouter>

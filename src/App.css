@@ -1,11 +1,17 @@
 .App {
   text-align: center;
+  margin: 0 400px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+};
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
